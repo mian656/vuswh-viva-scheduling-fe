@@ -585,6 +585,26 @@ const addcampus = () => {
                   />
                 </div>
 
+                <div>
+                  <label
+                    htmlFor="fax"
+                    className="block mb-2 text-md font-medium text-slate-600 dark:text-white"
+                  >
+                    Fax
+                  </label>
+                  <input
+                    type="tel"
+                    id="fax"
+                    value={fax}
+                    onChange={(e) => {
+                      setFax(e.target.value);
+                    }}
+                    className="bg-gray-50 border border-gray-50 outline outline-2 outline-gray-400 focus:outline-none text-blue-700 text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-72 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Fax"
+                    required
+                  />
+                </div>
+
                 <div className="mb-6">
                   <label
                     htmlFor="email"
