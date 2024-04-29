@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    /* background-image: url("../public/bg.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-color: rgb(120, 127, 129); */
+    /* background-attachment: fixed; */
+    /* background-attachment: scroll; */
+    /* background-size: cover; */
+}
